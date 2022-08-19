@@ -1,0 +1,6 @@
+S=NP,VP
+NP=ART,N
+VP=V,NP
+V=ate|chased
+N=rat|cat
+ART=a|an|the
