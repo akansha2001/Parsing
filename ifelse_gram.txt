@@ -1,0 +1,8 @@
+if_else:if,cond,act,else,cond_else
+cond:var,bool_op,var|var,bool_op,const
+act:assn|print
+assn:var,=,var|var,=,const
+const:0|1|2|3|4|5|6|7|8|9
+var:x|y|z
+bool_op:>|<|==
+cond_else:act|if_else
